@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+
+/*-------------------------------------------------------------Special Classes*/
+
+.btn-default {
+    font-size: 24px;
+    text-align: center;
+    padding-left: 21px;
+    color: #333;
+    background-color: transparent;
+    border-color: #ddd;
+    border: solid 1px;
+}
+
+/*-------------------------------------------------------------Jumbotron*/
+
+#landing-area {
+    background-attachment: fixed;
+    background: url('../images/landing.jpg');
+    background-position: bottom;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin-bottom: 0px;
+    z-index: 1;
+}
+
+
+/*-------------------------------------------------------------Navbar*/
+
+.navbar {
+    background: none;
+    border-color: transparent;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
+.navbar-fixed-top .container-fluid {
+    margin-right: 1%;
+    margin-top: 1%;
+}
+
+.navbar .navbar-header {
+    text-align: right;
+    float: right;
+    background-color: transparent;
+}
+
+.navbar-nav ul li a {
+    padding: 20px 25px 15px 25px;
+    background: none;
+}
+
