@@ -16,30 +16,49 @@
 	<header class="jumbotron" id="landing-area">
 		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="container-fluid">
+				<a class="navbar-brand" href="FR_index.html">fr</a>
 				<div class="navbar-header">
-					<ul class="nav navbar-nav">
-						<li class="dropdown">
-							<a href="#" class="btn btn-default dropdown-toggle glyphicon glyphicon-menu-hamburger" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"></a>
-							<ul class="dropdown-menu">
-								<li><a href="#">Action</a></li>
-								<li><a href="#">Another action</a></li>
-								<li><a href="#">Something else here</a></li>
-								<li><a href="#">Separated link</a></li>
-								<li><a href="#">One more separated link</a></li>
-							</ul>
-						</li>
+					<button id='scroll-button' type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#navbar-links" aria-expanded="false" aria-controls="navbar">
+	                    <span class="sr-only">Toggle navigation</span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+                    </button>
+				</div>
+				<div class="collapse navbar-collapse" id="navbar-links">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#about" class="page-scroll">About</a></li>
+						<li><a href="#" class="page-scroll">Portfolio</a></li>
+						<li><a href="#" class="page-scroll">Skills</a></li>
+						<li><a href="#" class="page-scroll">Work History</a></li>
+						<li><a href="#" class="page-scroll">Contact</a></li>
+						<li><a href="#" class="page-scroll">CV</a></li>
 					</ul>
 				</div>
-				<div class="navbar-header">
-					<a href="FR_index.html" class="navbar-brand">fr</a>
-				</div>
-			</div>
 		</nav>
-		<div class="container">
+		<div class="container top">
 			<h1 class='name'>Felipe Spoliante Litran</h1>
 			<p class='title'>Full-Stack Software Developer</p>
 		</div>
 	</header>
+	
+	<!--------Abou Me-------->
+	<section id="about-me">
+		<div class="container-fluid about-row">
+			<div class="row" id="about">
+				<h2>About Me</h2>
+			</div>
+			<div class="col-xs-hidden col-sm-6 col-md-6">
+                <p class='about-p'>I am an experienced professional in tech industry-focused data analytics and project management. Transitioning into software development, I am pursuing Code Institute’s full stack software development diploma covering multiple front-end and back-end frameworks.</p>
+                <p class='about-p hidden-sm'>Passionate about learning new technologies in order to craft and successfully deliver a unique UX through beautiful UI & interactions. I specialise in HTML, CSS, JavaScript, and Python languages, using Bootstrap, Django and Flask frameworks.</p>
+            </div>
+            <div class="col-xs-hidden col-sm-6 col-md-6">
+                <p class='about-p hidden-xs hidden-md hidden-lg'>Passionate about learning new technologies in order to craft and successfully deliver a unique UX through beautiful UI & interactions. I specialise in HTML, CSS, JavaScript, and Python languages, using Bootstrap, Django and Flask frameworks.</p>
+            </div>
+		</div>	
+	</section>
+	
+	<!--------Footer-------->
 	<footer>
 
 	</footer>
