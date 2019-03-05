@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 
-/*-------------------------------Special Classes-------------------------------*/
-
 /*-------------------------------Jumbotron-------------------------------*/
 
 #landing-area {
@@ -12,6 +10,7 @@
     background-size: cover;
     height: 100vh;
     width: 100vw;
+    padding-top: 15px;
     margin-bottom: 0px;
     z-index: -1;
 }
@@ -24,154 +23,228 @@
     font-family: "Exo", sans-serif;
     font-size: 64px;
     font-weight: 500;
+    color: #fafafa;
+    text-align: center;
 }
 
 .jumbotron p {
     font-family: "Roboto", sans-serif;
     font-size: 32px;
+    font-weight: 400;
+    color: #fafafa;
+    text-align: center;
+}
+
+.jumbotron .about-me {
+    padding: 20px 50px 15px 50px;
+    position: absolute;
+    bottom: 10%;
+    background-color: #eeeeee87;
+}
+
+.jumbotron .about-me p {
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
     font-weight: 300;
+    color: #255d29;
+    border-top: 35px;
+    text-align: center;
+}
+
+.jumbotron span {
+    font-weight: bold;
 }
 
 /*-------------------------------Navbar-------------------------------*/
 
-.navbar {
-    background: none;
+.navbar-left {
+    padding-left: 20px;
+}
+
+.navbar-right {
+    padding-right: 50px;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: transparent;
     border-color: transparent;
-    letter-spacing: 7px;
-    text-transform: uppercase;
 }
 
-.navbar .navbar-collapse {
-    text-align: right;
-    border-top: 1px solid transparent;
-    overflow-x: hidden;
-    padding-right: 18px;
-}
-
-.navbar .container-fluid {
-    width: 300px;
-    float: right;
-    text-align: right;
-    padding-right: 25px;
-    margin-top: 15px;
-}
-
-.navbar-fixed-top .container-fluid {
-    text-align: right;
-    margin-right: 1%;
-    margin-top: 1%;
-}
-
-.navbar-brand {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    color: #777;
-    display: inline-block;
-    line-height: 20px;
-    padding-right: 0;
-    padding-left: 170px;
-    transition: all .25s ease-in-out;
-    -moz-transition: all .25s ease-in-out;
-    -webkit-transition: all .25s ease-in-out;
-}
-
-.navbar-brand:hover {
-    color: #555!important;
-}
-
-.navbar .navbar-nav li a {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    color: #777;
-    transition: all .25s ease-in-out;
-    -moz-transition: all .25s ease-in-out;
-    -webkit-transition: all .25s ease-in-out;
-}
-
-.navbar .navbar-nav li a:hover {
-    color: #555!important;
-}
-
-/*------Media query to override BS default behavior for mobile/tablet collapsed navbar------*/
-
-@media (max-width: 5000px) {
-    .navbar-header {
-        float: none;
-    }
-    .navbar-left,
-    .navbar-right {
-        float: none !important;
-    }
-    .navbar-toggle {
-        display: block;
-    }
-    .navbar-collapse {
-        border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
-    }
-    .navbar-fixed-top {
-        top: 0;
-        border-width: 0 0 1px;
-    }
-    .navbar-collapse.collapse {
-        display: none!important;
-    }
-    .navbar-nav {
-        float: none!important;
-        margin-top: 7.5px;
-    }
-    .navbar-nav>li {
-        float: none;
-    }
-    .navbar-nav>li>a {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    .collapse.in {
-        display: block !important;
-    }
-}
-
-
-/*-------------------------------About-------------------------------*/
-
-#about-me {
-    background-image: url('../images/profile.jpg');
-    background-position: center;
-    background-size: cover;
-    width: 100vw;
-    filter: grayscale(100%);
-}
-
-.container-fluid {
-    padding-right: 15px;
-    padding-left: 25px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.about-row {
-    padding-bottom: 10%;
-    font-size: 1.75em;
-    line-height: 2;
-}
-
-h2 {
+.nav-pills>li>a {
+    border-radius: 4px;
+    color: #fafafa;
+    font-size: 18px;
+    font-weight: 500;
     font-family: "Exo", sans-serif;
-    font-weight: 600;
-    color: #eee;
-    margin-left: 15px;
-    margin-top: 15%;
-    letter-spacing: 7px;
-    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+     -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
 }
 
-.about-row .about-p {
-    color: #eee;
+.nav-pills>li>a:hover {
+    color: #75ea3d;
+    background-color: transparent;
+}
+
+.social-media {
+    padding-left: 15px;
+}
+
+/*-------------------------------Portfolio-------------------------------*/
+
+#portfolio {
+    background-attachment: scroll;
+    background-image: url('../images/wood.jpg');
+    background-size: cover;
+    height: 100%;
+    width: 100vw;
+    padding-left: 100px;
+    margin-bottom: 0px;
+}
+
+#portfolio .container {
+    margin-top: 0;
+}
+
+.card {
+    width: 320px;
+    height: 428px;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 60px 15px 30px 15px;
+    background-color: #638e65;
+    border-radius: 2.5%;
+    box-shadow: 0 2px 5px 0 #555555;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+}
+
+.card:hover {
+    background-color: #674c1f8c;
+}
+
+.card .card-image {
+    background: url(../images/nytimes.jpg) no-repeat center;
+    background-size: cover;
+    height: 200px;
+    width: 280px;
+    margin: 15px 15px 15px 20px;
+    border-radius: 2.5%;
+}
+
+#nytimes {
+    background: url(../images/nytimes.jpg) no-repeat center;
+    background-size: cover;
+    height: 200px;
+    width: 280px;
+    margin: 15px 15px 15px 20px;
+    border-radius: 2.5%;
+}
+
+#flipboard {
+    background: url(../images/flipboard.png) no-repeat center;
+    background-size: cover;
+    height: 200px;
+    width: 280px;
+    margin: 15px 15px 15px 20px;
+    border-radius: 2.5%;
+}
+
+#waze {
+    background: url(../images/waze.jpg) no-repeat center;
+    background-size: cover;
+    height: 200px;
+    width: 280px;
+    margin: 15px 15px 15px 20px;
+    border-radius: 2.5%;
+}
+
+.card .card-content {
+    padding: 0px 20px 10px 20px;
+}
+
+.card-content .card-title {
+    font-family: "Exo", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fafafa;
+}
+
+.card-content .card-subtitle {
     font-family: "Roboto", sans-serif;
-    font-size: .8em;
+    font-size: 14px;
     font-weight: 400;
-    margin: 40px 0px 40px 0px;
+    color: #fafafa;
+}
+
+.card-content .card-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: #fafafa;
+    text-align: left;
+}
+
+.card .row {
+   margin-left: 65%;
+}
+
+.card .card-link {
+    position: absolute;
+    bottom: 0px;
+    padding: 20px 0;
+    border-radius: 50%;
+    font-size: 28px;
+    width: 100px;
+    line-height: 14px;
+}
+
+.github-icon {
+    display: inline-block;
+    float: right;
+    box-shadow: 0px 0px 2px #888;
+    background-color: #fafafa;
+    color: #103311e3;
+    width: 41px;
+    height: 41px;
+    padding: 5px 0;
+    border-radius: 50%;
+    font-size: 28px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 2.5px 0px 2.5px 10px;
+
+}
+
+.desktop-icon {
+    display: inline-block;
+    box-shadow: 0px 0px 2px #888;
+    background-color: #fafafa;
+    color: #103311e3;
+    width: 41px;
+    height: 41px;
+    padding: 9px 0;
+    border-radius: 50%;
+    font-size: 26px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+}
+
+.card i:hover {
+    color: #674c1f8c;
+}
+
+
+/*-------------------------------Media Queries-------------------------------*/
+
+@media (max-width: 768px) and (min-width: 375px) {
+    .scroll-work {
+        width: 80%;
+    }
 }

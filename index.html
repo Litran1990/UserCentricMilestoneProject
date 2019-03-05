@@ -12,52 +12,147 @@
 </head>
 
 <body>
-	<!--TOP JUMBOTRON/NAVBAR-->
+	<!--LANDING PAGE - JUMBOTRON/NAVBAR-->
 	<header class="jumbotron" id="landing-area">
-		<nav class="navbar navbar-default navbar-fixed-top">
-			<div class="container-fluid">
-				<a class="navbar-brand" href="FR_index.html">fr</a>
-				<div class="navbar-header">
-					<button id='scroll-button' type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#navbar-links" aria-expanded="false" aria-controls="navbar">
-	                    <span class="sr-only">Toggle navigation</span>
-	                    <span class="icon-bar"></span>
-	                    <span class="icon-bar"></span>
-	                    <span class="icon-bar"></span>
-                    </button>
-				</div>
-				<div class="collapse navbar-collapse" id="navbar-links">
-					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#about" class="page-scroll">About</a></li>
-						<li><a href="#" class="page-scroll">Portfolio</a></li>
-						<li><a href="#" class="page-scroll">Skills</a></li>
-						<li><a href="#" class="page-scroll">Work History</a></li>
-						<li><a href="#" class="page-scroll">Contact</a></li>
-						<li><a href="#" class="page-scroll">CV</a></li>
-					</ul>
-				</div>
-		</nav>
+		<ul class="nav nav-pills navbar-left">
+			<li><a href="#portfolio" class="page-scroll">Portfolio</a></li>
+			<li><a href="#" class="page-scroll">Skills</a></li>
+			<li><a href="#" class="page-scroll">Work History</a></li>
+			<li><a href="#" class="page-scroll">Contact</a></li>
+			<li><a href="#" class="page-scroll">CV</a></li>
+		</ul>
+		<ul class="nav nav-pills navbar-right">
+			<li><a target="_blank" href=""><i class="fa fa-facebook"></i></a></li>
+			<li><a target="_blank" href=""><i class="fa fa-twitter"></i></a></li>
+			<li><a target="_blank" href=""><i class="fa fa-linkedin"></i></a></li>
+			<li><a target="_blank" href=""><i class="fa fa-pinterest"></i></a></li>
+			<li><a target="_blank" href=""><i class="fa fa-instagram"></i></a></li>
+			<li><a target="_blank" href=""><i class="fa fa-youtube"></i></a></li>
+		</ul>
 		<div class="container top">
 			<h1 class='name'>Felipe Spoliante Litran</h1>
-			<p class='title'>Full-Stack Software Developer</p>
+			<p>Full-Stack Software Developer</p>
+		</div>
+		<div class="about-me">
+			<p>Passionate about learning new technologies I am now transitioning into software development. I specialise in <span>HTML</span>, <span>CSS</span>, <span>JavaScript</span>, and <span>Python</span> languages, using <span>Bootstrap</span>, <span>Django</span>				and <span>Flask</span> frameworks.</p>
 		</div>
 	</header>
-	
-	<!--------Abou Me-------->
-	<section id="about-me">
-		<div class="container-fluid about-row">
-			<div class="row" id="about">
-				<h2>About Me</h2>
+
+	<!--------Portfolio-------->
+	<section class="jumbotron" id="portfolio">
+		<div class="container scroll-work">
+
+			<!--------The New York Times-------->
+			<div class="col-xs-6 col-sm-4 col-md-4">
+				<div class="card">
+					<a href="https://www.nytimes.com/" target="_blank">
+						<div class="card-image" id="nytimes"></div>
+					</a>
+					<div class="card-content">
+						<h3 class="card-title">The New York Times</h3>
+						<h4 class="card-subtitle">HTMML, CSS, Bootstrap & jQuery</h4>
+						<p class="card-text">The New York Times (sometimes abbreviated as the NYT and NYTimes) is an American newspaper based in New York City with worldwide influence and readership.</p>
+						<div class="row">
+							<a href="https://www.nytimes.com/" class="card-link" target="_blank"><i class="fa fa-desktop desktop-icon"></i></a>
+							<a href="https://github.com/Litran1990/UserCentricMilestoneProject" class="card-link" target="_blank"><i class="fa fa-github github-icon"></i></a>
+						</div>
+					</div>
+				</div>
 			</div>
-			<div class="col-xs-hidden col-sm-6 col-md-6">
-                <p class='about-p'>I am an experienced professional in tech industry-focused data analytics and project management. Transitioning into software development, I am pursuing Code Institute’s full stack software development diploma covering multiple front-end and back-end frameworks.</p>
-                <p class='about-p hidden-sm'>Passionate about learning new technologies in order to craft and successfully deliver a unique UX through beautiful UI & interactions. I specialise in HTML, CSS, JavaScript, and Python languages, using Bootstrap, Django and Flask frameworks.</p>
-            </div>
-            <div class="col-xs-hidden col-sm-6 col-md-6">
-                <p class='about-p hidden-xs hidden-md hidden-lg'>Passionate about learning new technologies in order to craft and successfully deliver a unique UX through beautiful UI & interactions. I specialise in HTML, CSS, JavaScript, and Python languages, using Bootstrap, Django and Flask frameworks.</p>
-            </div>
-		</div>	
+
+			<!--------Flipboard-------->
+			<div class="col-xs-6 col-sm-4 col-md-4">
+				<div class="card">
+					<a href="https://flipboard.com/" target="_blank">
+						<div class="card-image" id="flipboard"></div>
+					</a>
+					<div class="card-content">
+						<h3 class="card-title">Flipboard</h3>
+						<h4 class="card-subtitle">Flask, JavaScript & MongoDB</h4>
+						<p class="card-text">Flipboard curates the world's stories so you can focus on investing in yourself, staying informed, and getting involved.</p>
+						<div class="row">
+							<a href="https://flipboard.com/" class="card-link" target="_blank"><i class="fa fa-desktop desktop-icon"></i></a>
+							<a href="https://github.com/Litran1990/UserCentricMilestoneProject" class="card-link" target="_blank"><i class="fa fa-github github-icon"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!--------Waze-------->
+			<div class="col-xs-6 col-sm-4 col-md-4">
+				<div class="card">
+					<a href="https://www.waze.com/" target="_blank">
+						<div class="card-image" id="waze"></div>
+					</a>
+					<div class="card-content">
+						<h3 class="card-title">Waze</h3>
+						<h4 class="card-subtitle">Django, Python & AWS</h4>
+						<p class="card-text">Waze is a GPS navigation software app.</p>
+						<div class="row">
+							<a href="https://www.waze.com/" class="card-link" target="_blank"><i class="fa fa-desktop desktop-icon"></i></a>
+							<a href="https://github.com/Litran1990/UserCentricMilestoneProject" class="card-link" target="_blank"><i class="fa fa-github github-icon"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!--------The New York Times-------->
+			<div class="col-xs-6 col-sm-4 col-md-4">
+				<div class="card">
+					<a href="https://www.nytimes.com/" target="_blank">
+						<div class="card-image"></div>
+					</a>
+					<div class="card-content">
+						<h3 class="card-title">The New York Times</h3>
+						<h4 class="card-subtitle">HTMML, CSS, Bootstrap & jQuery</h4>
+						<p class="card-text">The New York Times (sometimes abbreviated as the NYT and NYTimes) is an American newspaper based in New York City with worldwide influence and readership.</p>
+						<div class="row">
+							<a href="https://www.nytimes.com/" class="card-link" target="_blank"><i class="fa fa-desktop desktop-icon"></i></a>
+							<a href="https://github.com/Litran1990/UserCentricMilestoneProject" class="card-link" target="_blank"><i class="fa fa-github github-icon"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!--------The New York Times-------->
+			<div class="col-xs-6 col-sm-4 col-md-4">
+				<div class="card">
+					<a href="https://www.nytimes.com/" target="_blank">
+						<div class="card-image"></div>
+					</a>
+					<div class="card-content">
+						<h3 class="card-title">The New York Times</h3>
+						<h4 class="card-subtitle">HTMML, CSS, Bootstrap & jQuery</h4>
+						<p class="card-text">The New York Times (sometimes abbreviated as the NYT and NYTimes) is an American newspaper based in New York City with worldwide influence and readership.</p>
+						<div class="row">
+							<a href="https://www.nytimes.com/" class="card-link" target="_blank"><i class="fa fa-desktop desktop-icon"></i></a>
+							<a href="https://github.com/Litran1990/UserCentricMilestoneProject" class="card-link" target="_blank"><i class="fa fa-github github-icon"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!--------The New York Times-------->
+			<div class="col-xs-6 col-sm-4 col-md-4">
+				<div class="card">
+					<a href="https://www.nytimes.com/" target="_blank">
+						<div class="card-image"></div>
+					</a>
+					<div class="card-content">
+						<h3 class="card-title">The New York Times</h3>
+						<h4 class="card-subtitle">HTMML, CSS, Bootstrap & jQuery</h4>
+						<p class="card-text">The New York Times (sometimes abbreviated as the NYT and NYTimes) is an American newspaper based in New York City with worldwide influence and readership.</p>
+						<div class="row">
+							<a href="https://www.nytimes.com/" class="card-link" target="_blank"><i class="fa fa-desktop desktop-icon"></i></a>
+							<a href="https://github.com/Litran1990/UserCentricMilestoneProject" class="card-link" target="_blank"><i class="fa fa-github github-icon"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
 	</section>
-	
+
 	<!--------Footer-------->
 	<footer>
 
