@@ -266,4 +266,72 @@
 }
 
 
+/*-------------------------------Portfolio-------------------------------*/
+
+#skills {
+    background-color: #8a6d3b66;
+    height: 77vh;
+    width: 100vw;
+    margin: 0;
+}
+
+#skills .container {
+    width: 100%;
+    margin: 0;
+    padding-left: 120px;
+    padding-right: 150px;
+}
+
+#skills .row .progress-section {
+    margin-left: 100px;
+    margin-bottom: 15px;
+    width: 95vw;
+}
+
+#skills .progress {
+    float: left;
+    width: 80%;
+}
+
+#skills h2 {
+    font-size: 44px;
+    color: #255d29;
+    margin-top: 0px;
+}
+
+#skills h3 {
+    color: #255d29;
+    margin-top: 0px;
+}
+
+.skills-description {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.skills-description p {
+    color: #255d29;
+    font-size: 16px;
+    text-align: left;
+}
+
+.skill-name {
+    position: absolute;
+    left: -50px;
+    color: #255d29;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.05em;
+    font-weight: 400;
+}
+
+.skills-icon {
+    font-size: 38px;
+    color: #8a6d3b;
+    padding-left: 20px;
+}
+
+
+
+
+
 /*-------------------------------Media Queries-------------------------------*/
