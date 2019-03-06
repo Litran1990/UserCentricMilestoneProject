@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+body {
+    overflow-x: hidden;
+}
+
 
 /*-------------------------------Jumbotron-------------------------------*/
 
@@ -55,6 +59,11 @@
     font-weight: bold;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+
+
 /*-------------------------------Navbar-------------------------------*/
 
 .navbar-left {
@@ -91,6 +100,7 @@
 .social-media {
     padding-left: 15px;
 }
+
 
 /*-------------------------------Portfolio-------------------------------*/
 
@@ -270,7 +280,7 @@
 
 #skills {
     background-color: #8a6d3b66;
-    height: 77vh;
+    height: 90vh;
     width: 100vw;
     margin: 0;
 }
@@ -294,7 +304,7 @@
 }
 
 #skills h2 {
-    font-size: 44px;
+    font-size: 30px;
     color: #255d29;
     margin-top: 0px;
 }
@@ -305,8 +315,8 @@
 }
 
 .skills-description {
-    padding-top: 50px;
-    padding-bottom: 30px;
+    padding-top: 100px;
+    padding-bottom: 90px;
 }
 
 .skills-description p {
@@ -401,7 +411,7 @@
     position: absolute;
     left: -6px;
     border-radius: 12px;
-    background: #fafafa;
+    background: #255d29;
 }
 
 .item p {
@@ -415,5 +425,44 @@
 }
 
 
+/*-------------------------------Contact-------------------------------*/
 
-/*-------------------------------Media Queries-------------------------------*/
+#contact {
+    background-attachment: scroll;
+    background-image: url('../images/profile.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin-bottom: 0px;
+}
+
+#contact h2 {
+    font-family: "Exo", sans-serif;
+    font-size: 30px;
+    color: #fafafa;
+}
+
+#contact .container {
+    margin-top: 135px;
+    margin-left: 120px;
+}
+
+.contact-field {
+    margin: 15px 0px 15px 0px;
+}
+
+.contact-field .btn-primary {
+    background-color: #255d29;
+    border-color: #fafafa;
+}
+
+.contact-field .btn-primary:hover {
+    background-color: #75ea3d;
+    border-color: #fafafa;
+}
+
+
+/*-------------------------------Footer-------------------------------*/
+
+
+/*-------------------------------Media Queries-------------------------*/
