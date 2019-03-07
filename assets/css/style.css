@@ -4,11 +4,10 @@ body {
     overflow-x: hidden;
 }
 
-
 /*-------------------------------Jumbotron-------------------------------*/
 
 #landing-area {
-    background-attachment: fixed!important;
+    background-attachment: fixed;
     background-image: url('../images/landing.jpg');
     background-position: bottom;
     background-size: cover;
@@ -43,7 +42,7 @@ body {
     padding: 20px 50px 15px 50px;
     position: absolute;
     bottom: 10%;
-    background-color: #eeeeee87;
+    background-color: #eeeeeede;
 }
 
 .jumbotron .about-me p {
@@ -53,6 +52,8 @@ body {
     color: #255d29;
     border-top: 35px;
     text-align: center;
+    line-height: 34px;
+    letter-spacing: 2px;
 }
 
 .jumbotron span {
@@ -303,7 +304,7 @@ body {
     width: 80%;
 }
 
-#skills h2 {
+.skills-title {
     font-size: 30px;
     color: #255d29;
     margin-top: 0px;
@@ -344,10 +345,11 @@ body {
 /*-------------------------------Work History-------------------------------*/
 
 #work {
-    background-attachment: fixed!important;
+    background-attachment: fixed;
     background-image: url('../images/work.jpg');
     background-position: bottom;
     background-size: cover;
+    opacity: 0.8;
     height: 100vh;
     width: 100vw;
     padding-top: 50px;
@@ -508,3 +510,357 @@ footer i:hover {
 }
 
 /*-------------------------------Media Queries-------------------------*/
+
+/*--------------XS------------*/
+
+@media (max-width: 768px) and (min-width: 375px) {
+    #landing-area {
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+        width: 100vw;
+    }
+
+    .navbar-left {
+        padding-left: 0px;
+    }
+
+    .nav-pills>li>a {
+        font-size: 12px;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    .jumbotron .container {
+        margin-top: 40px;
+    }
+
+    .jumbotron h1 {
+        font-size: 52px;
+    }
+
+    .jumbotron .about-me {
+        padding: 0;
+    }
+
+    .jumbotron .about-me p {
+        font-size: 14px;
+        margin: 0;
+        line-height: 27px;
+    }
+
+    .card {
+        margin: 60px 0px 50px -100px;
+    }
+
+    #skills {
+        height: 92vh;
+    }
+
+    #skills .container {
+        margin: 0;
+        padding-left: 25px;
+    }
+
+    #skills .progress {
+        width: 90%;
+    }
+
+    .skills-mobile {
+        width: 100vw;
+    }
+
+    .skills-description {
+        padding-top: 42px;
+        padding-bottom: 24px;
+    }
+
+    .skills-description p {
+        margin-bottom: 24px;
+        padding-right: 15px;
+    }
+
+    .skills-icon {
+        padding-left: 0px;
+    }
+
+    .skill-name {
+        left: 16px;
+        color: #fafafa;
+        font-size: 10px;
+        padding-top: 3px;
+        padding-left: 8px;
+    }
+
+    #skills .row .progress-section {
+        margin-left: 1px;
+        margin-bottom: 12px;
+    }
+
+    #work {
+        background-position: bottom;
+        background-attachment: scroll;
+        padding-top: 30px;
+        padding-left: 20px;
+        height: 203vh;
+    }
+
+    .academic-background {
+        padding-left: 15px;
+        padding-top: 20px;
+    }
+
+    hr {
+        margin: 15px 58px 15px 15px;
+        border-top: 1px solid #fafafa;
+        border: inset;
+    }
+
+    #contact {
+        background-attachment: scroll;
+        background-position: top;
+        height: 80vh;
+        width: 100vw;
+    }
+
+    #contact .container {
+        margin-top: 33px;
+        margin-left: 9px;
+        margin-right: 66px;
+    }
+
+}
+
+/*--------------XS------------*/
+
+@media (max-height: 667px) {
+    #skills {
+        height: 109vh;
+    }
+
+    #work {
+        height: 245vh;
+    }
+}
+
+
+/*--------------SM------------*/
+
+@media (max-width: 992px) and (min-width: 768px) {
+    #landing-area {
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+        width: 100vw;
+    }
+
+    .navbar-left {
+        padding-left: 0px;
+    }
+
+    .nav-pills>li>a {
+        font-size: 14px;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    .jumbotron .container {
+        margin-top: 210px;
+    }
+
+    .jumbotron .about-me {
+        padding: 15px;
+        bottom: 15%;
+    }
+
+    .jumbotron .about-me p {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    #portfolio {
+        padding-left: 55px;
+    }
+
+    .card {
+        margin: 60px 0px 50px -20px;
+    }
+
+    #skills {
+        height: 63vh;
+        padding-left: 15px;
+    }
+
+
+    #skills .container {
+        margin: 0;
+        padding-left: 25px;
+    }
+
+    .skills-mobile {
+        width: 100vw;
+    }
+
+    .skills-description {
+        padding-top: 42px;
+        padding-bottom: 24px;
+        padding-right: 55px;
+    }
+
+    .skills-description p {
+        margin-bottom: 24px;
+        padding-right: 15px;
+    }
+
+    .skills-icon {
+        padding-left: 0px;
+    }
+
+    .skill-name {
+        left: 16px;
+        color: #fafafa;
+        font-size: 10px;
+        padding-top: 3px;
+        padding-left: 8px;
+    }
+
+    #skills .progress {
+        width: 90%;
+    }
+
+    #skills .row .progress-section {
+        margin-left: 1px;
+        margin-bottom: 12px;
+    }
+
+    #work {
+        background-position: bottom;
+        background-attachment: scroll;
+        padding-top: 60px;
+        padding-left: 20px;
+        height: 75vh;
+    }
+
+    .academic-background {
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+
+    #work h3 {
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .item:before {
+        font-weight: bold;
+        font-size: 13px;
+    }
+
+    .item p {
+        font-size: 13px;
+    }
+
+    hr {
+        margin: 15px 58px 15px 15px;
+        border-top: 1px solid #fafafa;
+        border: inset;
+    }
+
+    #contact {
+        background-attachment: scroll;
+        background-position: top;
+        height: 55vh;
+        width: 100vw;
+        padding-top: 1px;
+    }
+
+    #contact .container {
+        margin-top: 80px;
+        margin-left: 22px;
+        margin-right: 25px;
+    }
+
+}
+
+/*--------------MD------------*/
+
+@media (min-width: 1024px) and (max-width: 1400px) {
+    #landing-area {
+        background-attachment: scroll;
+    }
+
+    .jumbotron .container {
+        margin-top: 380px;
+
+    }
+
+    .nav-pills>li>a {
+        font-weight: bold;
+        font-size: 18px;
+        text-decoration: underline;
+        text-decoration-style: double;
+        line-height: -1px;
+    }
+
+    #portfolio {
+        padding-left: 263px;
+    }
+
+    .card {
+        margin: 60px 0px 50px -61px;
+    }
+
+    #skills {
+        height: 57vh;
+    }
+
+    .skills-description {
+        padding-right: 10px;
+    }
+
+    #skills h3 {
+        margin-bottom: 26px;
+    }
+
+    .skills-icon {
+        padding-left: 0px;
+    }
+
+    #work {
+        height: 69vh;
+        width: 100vw;
+        padding-top: 85px;
+        padding-left: 40px;
+    }
+
+    .academic-background {
+        padding-left: 0px;
+    }
+
+    #work {
+        background-attachment: scroll;
+    }
+
+    #work h2 {
+        margin-bottom: 66px;
+    }
+
+    #contact {
+        background-position: bottom;
+        height: 65vh;
+    }
+
+    #contact .row {
+        padding-right: 23px;
+        margin-left: 0px;
+    }
+
+    #contact .container {
+        margin-left: 12px;
+    }
+
+    .form-control {
+        padding: 20px 12px;
+    }
+
+}
