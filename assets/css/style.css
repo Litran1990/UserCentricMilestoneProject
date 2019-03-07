@@ -385,7 +385,7 @@ body {
 .item {
     padding: 54px 32px 0px 32px;
     position: relative;
-    color: #255d29;
+    color: #2bd638;
     border-left: 1px solid;
     border-color: #fafafa;
     margin-bottom: 30px;
@@ -394,12 +394,12 @@ body {
 .item:before {
     content: attr(dates);
     position: absolute;
-    left: 2.5em;
+    left: 2.0em;
     top: 30px;
     display: block;
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
+    font-weight: bold;
+    font-size: 16px;
     padding: 0;
     margin: 0;
 }
@@ -419,10 +419,10 @@ body {
 .item p {
     padding: 0;
     margin: 0;
-    color: #255d29;
+    color: #2bd638;
     text-align: left;
     font-family: "Roboto", sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
 }
 
