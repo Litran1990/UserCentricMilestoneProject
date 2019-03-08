@@ -44,10 +44,10 @@ Below is a User Story with the following general structure: user type, action, a
 
 ## Technologies Used
 
-- 1. HTML
-- 2. CSS
-- 3. Bootstrap (3.3.7)
-- 4. JQuery (3.3.1)
+1. HTML
+2. CSS
+3. Bootstrap (3.3.7)
+4. JQuery (3.3.1)
 
 
 ## Testing
