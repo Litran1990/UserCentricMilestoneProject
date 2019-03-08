@@ -1,39 +1,45 @@
 # Felipe Spoliante Litran Portfolio - User-Centric Front-End Development
 
-This project consists of bulding a personal portfolio website with the main and ultimate goal of presenting to the public Felipe Spoliante Litran.
+This project consists of biulding a personal portfolio website with the main and ultimate goal of presenting to the recruiters and industry peers Felipe Spoliante Litran.
 Therefore, the content display on the website will be split in five different parts:
-- Title
-- About
+- Portfolio
 - Skills
-- Work & Academic Background
+- Work History
 - Contact
+- CV
 
-Basically, the idea is to successfuly introduce to potential employers, recruiters, and industry peers Felipe Spoliante Litran's profile, work history, academic background and most importantly, his abiities as a software developer.
- 
+Basically, the idea is to successfully introduce to potential employers, recruiters, and industry peers Felipe Spoliante Litran's profile, work history, academic background and most importantly, his abiities as a software developer.
+
+
+## Demo
+
+A live demo can be found [here](https://litran1990.github.io/UserCentricMilestoneProject/).
+
+
 ## UX
  
 The main goal of this website is to trigger the interest of recruiters and employers for Felipe's profile and coding skills.
 Thus, in order to achieve such goal, a well-structured appealing website is required. The strategy and scope of this project is to deliver enough information in order to catch the attention of its main audience, recruiters and employers.
-As for the structured, I aimed at a sing-scrolling page with five different areas. The skeletion is designed to achieve a well-distributed content without overflooding any specific section or area.
+As for the structured, I aimed at a sing-scrolling page with five different areas. The skeleton is designed to achieve a well-distributed content without overflowing any specific section or area.
 
-Below are a few User Stories with the following general structure: user type, action, and goal.
-- As a potential employer or recruiter, I would be immediately looking for informartion conerning who Felipe Spoliante Litran is and what his programming skills are wich can be found on the "About" and "Skills" areas. Furthermore, his work history and academic background would refine my inital perception of who Felipe is. Ultimately, the "Contact" area and social media links on the "Footer" would provide me with the necessary info in order to contact him.
-
-The wireframes for this project can be found here: LINK
+Below is a User Story with the following general structure: user type, action, and goal.
+- As a potential employer or recruiter, I would be immediately looking for information concerning who Felipe Spoliante Litran is and what his programming skills are wich can be found on the "About" and "Skills" areas. Furthermore, his work history and academic background would refine my initial perception of who Felipe is. Ultimately, the "Contact" area and social media links on the "Footer" would provide me with the necessary info in order to contact him.
 
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+- Landing Page: In the landing page, the goal was to provide to the user a clear but not overwhelming view where he/she can easily find all other sections in the website and external social media links.
+- Portfolio: The portfolio section is intended to expose my most relevant projects. It is important to emphasise that the projects currently shown have not been developed by me and are just for educational purposes.
+- Skills: The skills section adopts a simple a clear view where I wished to show a brief description of my front and back-end skills and their progress bars.
+- Work & Academic History: This section has been placed on fourth place due to its audience being more restricted to potential recruiters. Therefore, the idea here is to give a brief idea of the companies which I have worked for and the educational paths I have pursued.
+- Contact: The contact sections is designed for industry peers, recruiters and employers who wish to obtain or give more information about a possible project or work opportunity.
  
- 
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
 
 ### Features Left to Implement
-- Another feature idea
+- I wish to still implement a smooth scrolling affect through the use of the scrollSpy feature in Bootstrap with JavaScript.
+- The portfolio section will be constantly modified as I deploy my own applications and projects. Therefore, the "fake" projects/applications currently shown will be replaced by the upcoming apps developed by me.
+- Animations using Javascript will be introduced in order to have different elements being introduced in different ways/order.
+- In the contact section, the back-end code related to the form has not yet been introduced. This feature will be implement in the upcoming weeks.
 
 
 ## Technologies Used
@@ -41,50 +47,46 @@ In this section, you should go over the different parts of your project, and des
 - 1. HTML
 - 2. CSS
 - 3. Bootstrap (3.3.7)
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+- 4. JQuery (3.3.1)
 
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+The testing concerning the employer and recruiter user story successfully achieved its ultimate goal, to effectively communicate my software development skills and projects.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+Before approaching the results for each section it is worth mentioning that the website presented itself quite responsive to different screen sizes. Moreover, all links will be displayed in a new tab due to the 'target="_blank"' attribute.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+Therefore, each section in the website presented the following outcomes:
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+1. Landing Page:
+    2. Users were able to access all sections displayed on the menu
+    3. Users were able to access all available social media external links
+    4. Users were able to access the link to my cv
+2. Portfolio: Users were able to access the applications/websites and their corresponding source code
+3. Skills: Users were able to assess my software development skills as this section does not provide any user interaction
+4. Work History: Users were able to assess my work history and academic background as this section does not provide any user interaction
+5. Contact: Users are currently unable to submit the contact form as the back end code has not yet been introduced
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+This website has been hosted on GitHub pages, and it is deployed directly from the master branch. Therefore, once a new commit has been done the changes will automatically take effect on the master branch. 
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
+Additionally, if you wish to run the code locally, you can clone this repository directly into the editor of your choice by pasting `git clone https://github.com/Litran1990/UserCentricMilestoneProject` into your terminal. In order to cut ties with this GitHub repository, type `git remote rm origin` into the terminal.
 
 
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- All descriptions for the applications in the portfolio section were copied from the [Wikipedia](https://en.wikipedia.org)
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from [Pexels](https://www.pexels.com/)
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from:
+    1. Code Institute's User Centric Design - Mini Project
+    2. Wix's Personal Portfolio Template [Wix](https://www.wix.com/website-template/view/html/1887?siteId=5d2a8f2b-b726-45f6-9db1-92596eccc9d2&metaSiteId=28a077e8-599e-452b-959b-5946202e015b&originUrl=https%3A%2F%2Fwww.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fportfolio-cv%2Fpersonal)
+    3. Andrew Borstein's Portfolio [Borstein](https://andrewborstein.com/)
+    4. Code Institute's User Centric Design - Milestone Project - Sample - Haley Schafer's Potfolio [Schafer](https://code-institute-solutions.github.io/StudentExampleProjectGradeFive/)

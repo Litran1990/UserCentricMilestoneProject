@@ -79,7 +79,6 @@ body {
 .nav .open>a:focus,
 .nav .open>a:hover {
     background-color: transparent;
-    border-color: transparent;
 }
 
 .nav-pills>li>a {
@@ -137,7 +136,7 @@ body {
 }
 
 .card:hover {
-    background-color: #674c1f8c;
+    background-color: #649b8694;
 }
 
 .card .card-image {
@@ -280,7 +279,7 @@ body {
 /*-------------------------------Portfolio-------------------------------*/
 
 #skills {
-    background-color: #8a6d3b66;
+    background-color: #9b9280a1;
     height: 90vh;
     width: 100vw;
     margin: 0;
@@ -374,8 +373,9 @@ body {
 }
 
 #work h3 {
-    color: #fafafa;
+    color: #39424E;
     font-family: "Exo", sans-serif;
+    font-weight: bold;
 }
 
 .academic-background {
@@ -385,14 +385,14 @@ body {
 .item {
     padding: 54px 32px 0px 32px;
     position: relative;
-    color: #2bd638;
+    color: #D6DDE7;
     border-left: 1px solid;
-    border-color: #fafafa;
+    border-color: #9B9280;
     margin-bottom: 30px;
 }
 
 .item:before {
-    content: attr(dates);
+    content: attr(datetime);
     position: absolute;
     left: 2.0em;
     top: 30px;
@@ -413,13 +413,13 @@ body {
     position: absolute;
     left: -6px;
     border-radius: 12px;
-    background: #255d29;
+    background: #4E4531;
 }
 
 .item p {
     padding: 0;
     margin: 0;
-    color: #2bd638;
+    color: #D6DDE7;
     text-align: left;
     font-family: "Roboto", sans-serif;
     font-size: 18px;
@@ -662,7 +662,7 @@ footer i:hover {
         height: 101vh;
     }
     #work {
-        height: 225vh;
+        height: 230vh;
     }
 }
 
@@ -842,7 +842,6 @@ footer i:hover {
         font-weight: bold;
         font-size: 18px;
         text-decoration: underline;
-        line-height: -1px;
     }
 
     #portfolio {
