@@ -140,7 +140,7 @@ body {
 }
 
 .card .card-image {
-    background: url(../images/nytimes.jpg) no-repeat center;
+    background: url(../images/portfolio.png) no-repeat center;
     background-size: cover;
     height: 200px;
     width: 280px;
@@ -148,8 +148,8 @@ body {
     border-radius: 2.5%;
 }
 
-#nytimes {
-    background: url(../images/nytimes.jpg) no-repeat center;
+#project_1 {
+    background: url(../images/portfolio.png) no-repeat center;
     background-size: cover;
     height: 200px;
     width: 280px;
@@ -157,8 +157,8 @@ body {
     border-radius: 2.5%;
 }
 
-#flipboard {
-    background: url(../images/flipboard.png) no-repeat center;
+#project_2 {
+    background: url(../images/desktop.png) no-repeat center;
     background-size: cover;
     height: 200px;
     width: 280px;
@@ -166,8 +166,8 @@ body {
     border-radius: 2.5%;
 }
 
-#waze {
-    background: url(../images/waze.jpg) no-repeat center;
+#project_3 {
+    background: url(../images/data_centric.png) no-repeat center;
     background-size: cover;
     height: 200px;
     width: 280px;
